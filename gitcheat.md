@@ -4,7 +4,7 @@
 
 the pound names the heading. 
 
-git config --global [user.name]
+git config --global user.name "[NAME]"
 configures the git with the user name rnugent
 
 git --config --global user.email [email.address]
@@ -28,11 +28,19 @@ what is the status of the git? connected (green) or not connected (red)
 
 git log 
 
-git add
+git add [and a dot or a file name]
 add the files you want to be tracked 
+
+then you could check the file status see if it is green 
 
 git commit -m "[clear message describing the changes you made]"
 so this is like a decided benchmark of changes versions  
 
 git push origin master 
 push the stuff 
+
+So we change something in a file. We typetypetypetype. REACH A STOPPING POINT?
+1) ADD
+2) COMMIT (with -m and "clear message")
+3) PUSH
+------> REPEAT.
